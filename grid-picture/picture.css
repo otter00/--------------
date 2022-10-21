@@ -1,0 +1,55 @@
+.main-container {
+    min-height: 785px;
+    max-width: 800px;
+
+    display: grid;
+    grid-template-rows: 45% 20% 35%;
+
+    gap: 0rem;
+    border: 2px solid black;
+}
+
+.row-one, .row-two, .row-three {
+    gap: 0rem;
+}
+
+.row-one, .row-two {
+    display: grid;
+    grid-template-columns: 40% 60%;
+
+    gap: 0rem;
+}
+
+.row-three {
+    display: grid;
+    grid-template-columns: 10% 30% 35% 25%;
+
+    gap: 0rem;
+}
+
+.cell {
+    border: 2px solid black;
+}
+
+.three-three {
+    display: grid;
+    grid-template-rows: 90% 10%;
+}
+
+.one-two, .two-one, .two-two, 
+.three-two, .three-three__two,
+.three-four {
+background-color: lightgray;
+}
+
+.one-one {
+    background-color: rgba(255, 0, 0, 0.832);
+}
+
+.three-one {
+    background-color: rgb(255, 221, 0);
+}
+
+.three-three__one {
+    background-color: rgba(43, 43, 190, 0.821);
+}
